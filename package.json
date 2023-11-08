@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx http-server ./src --port 8000"
+    "dev": "npx http-server ./docs --port 8000"
   },
   "keywords": [],
   "author": "",
