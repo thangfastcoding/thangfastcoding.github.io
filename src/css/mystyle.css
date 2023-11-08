@@ -1,0 +1,334 @@
+.my-header {
+    background-color: black !important;
+    color: white !important;
+
+}
+
+
+.my-header-menubtn {
+    background-color: white !important;
+    border-radius: 5px !important;
+}
+
+.my-header-logo {
+    width: 100px;
+    height: 30px;
+
+}
+
+.my-section1-logo {
+    width: 200px;
+    height: 60px;
+
+}
+
+.my-header-text-color {
+    color: rgba(169, 170, 174, 1) !important;
+}
+
+.my-header-text-color:hover {
+    color: white !important;
+}
+
+.my-row1-bg {
+    height: 100vh;
+
+    background:
+        /* top, transparent red */
+        linear-gradient(rgba(119, 107, 81, 0.45),
+            rgba(119, 107, 81, 0.45)),
+        /* bottom, image */
+        url('/img/building.jpg');
+
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+}
+
+@media (max-width: 576px) {
+    .my-row1-bg {
+        height: 150vh;
+
+        background:
+            /* top, transparent red */
+            linear-gradient(rgba(119, 107, 81, 0.45),
+                rgba(119, 107, 81, 0.45)),
+            /* bottom, image */
+            url('/img/building.jpg');
+
+        background-repeat: no-repeat, repeat;
+        background-size: cover;
+    }
+}
+
+
+.my-row2-bg {
+    height: 90vh;
+
+    background-color: rgba(245, 245, 245, 1);
+
+
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+}
+@media (max-width: 576px) {
+    .my-row2-bg {
+        height: 120vh;
+    
+        background-color: rgba(245, 245, 245, 1);
+    
+    
+        background-repeat: no-repeat, repeat;
+        background-size: cover;
+    }
+}
+
+.my-row3-bg {
+    height: 100vh;
+
+    background-color: rgba(255, 255, 255, 1);
+
+
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+}
+
+@media (max-width: 576px) {
+    .my-row3-bg {
+        height: 180vh;
+
+        background-color: rgba(255, 255, 255, 1);
+
+
+        background-repeat: no-repeat, repeat;
+        background-size: cover;
+    }
+}
+
+.my-row4-bg {
+    height: 80vh;
+
+    background-color: rgba(245, 245, 245, 1);
+
+
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+}
+
+@media (max-width: 576px) {
+    .my-row4-bg {
+        height: 120vh;
+
+        background-color: rgba(245, 245, 245, 1);
+
+
+        background-repeat: no-repeat, repeat;
+        background-size: cover;
+    }
+}
+
+
+.my-row5-bg {
+    height: 80vh;
+
+    background-color: white;
+
+
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+}
+
+@media (max-width: 576px) {
+    .my-row5-bg {
+        height: 160vh;
+
+        background-color: white;
+
+
+        background-repeat: no-repeat, repeat;
+        background-size: cover;
+    }
+}
+
+
+.my-row6-bg {
+    height: 50vh;
+
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.45)),
+        url('/img/street.jpg');
+
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+}
+
+
+.my-row7-bg {
+    height: 80vh;
+
+    background-color: white;
+
+
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+}
+
+@media (max-width: 576px) {
+    .my-row7-bg {
+        height: 100vh;
+
+        background-color: white;
+
+
+        background-repeat: no-repeat, repeat;
+        background-size: cover;
+    }
+}
+
+.my-white-text {
+    color: white !important;
+}
+
+.my-short-hr {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    border: 2px !important;
+    border-top: 2px solid white !important;
+    opacity: 1;
+    width: 60px;
+}
+
+.my-short-orange-hr {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    border: 2px !important;
+    border-top: 2px solid rgba(255, 138, 54, 1) !important;
+    opacity: 1;
+    width: 60px;
+}
+
+.my-orange-color {
+    color: rgba(255, 138, 54, 1) !important;
+}
+
+.my-light-black-text {
+    color: rgba(169, 170, 174, 1)
+}
+
+.my-input {
+    border-radius: 0 !important;
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    resize: none;
+}
+
+.my-orange-bgcolor {
+    background-color: rgba(255, 138, 54, 1) !important;
+}
+
+.my-container {
+    width: 80vw;
+    max-width: 80vw;
+}
+
+.my-trial-card {
+    width: 70%;
+}
+
+@media (max-width: 576px) {
+    .my-trial-card {
+        width: 100%;
+    }
+}
+
+.my-section2-img {
+    width: 100%;
+    height: 300px;
+}
+
+.my-section3-img {
+    width: 100%;
+    height: 300px;
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.my-section4-img {
+    width: 100%;
+    height: 300px;
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+
+}
+
+
+.my-nav-link.nav-link.active {
+    background-color: rgba(255, 138, 54, 1) !important;
+
+}
+
+.my-nav-link.nav-link {
+    background-color: rgba(54, 54, 54, 1) !important;
+    height: 100px !important;
+}
+
+.my-nav-topbtn-corner {
+    border-radius: 5px !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-bottom: 1px solid white !important;
+}
+
+.my-nav-middlebtn-corner {
+    border-radius: 5px !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid white !important;
+}
+
+.my-nav-bottombtn-corner {
+    border-radius: 5px !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+
+@media (max-width: 576px) {
+    .my-nav-link.nav-link {
+        background-color: rgba(54, 54, 54, 1) !important;
+        height: 50px !important;
+    }
+
+    .my-nav-topbtn-corner {
+        border-radius: 5px !important;
+        border-top-right-radius: 0 !important;
+        border-bottom-right-radius: 0 !important;
+        border-bottom: 0px solid white !important;
+        border-right: 1px solid white !important;
+    }
+
+    .my-nav-middlebtn-corner {
+        border-radius: 5px !important;
+        border-radius: 0 !important;
+        border-bottom: 0px solid white !important;
+        border-right: 1px solid white !important;
+    }
+
+    .my-nav-bottombtn-corner {
+        border-radius: 5px !important;
+        border-top-left-radius: 0 !important;
+        border-bottom-left-radius: 0 !important;
+    }
+}
+
+.my-btnicon {
+    --bs-btn-color: rgba(255, 138, 54, 1);
+    --bs-btn-border-color: rgba(255, 138, 54, 1);
+    --bs-btn-hover-brgb: rgba(255, 138, 54, 1);
+    --bs-btn-hover-bg: rgba(255, 138, 54, 1);
+    --bs-btn-hover-border-color: rgba(255, 138, 54, 1);
+
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.my-footer {
+    background-color: black !important;
+}
